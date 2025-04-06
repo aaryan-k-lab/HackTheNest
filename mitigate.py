@@ -2,6 +2,12 @@ import paramiko
 import time
 import threading
 import logging
+import flask
+import os
+import numpy
+import tensorFlow
+import scikit-learn
+import sql
 from colorama import Fore, Back, Style
 
 VULN_MITIGATIONS = {
